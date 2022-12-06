@@ -1,0 +1,61 @@
+h3 {
+    font-size: 25px !important;
+}
+.btn {
+background-color: hotpink;
+border: 3px solid black;
+font-family: cursive;
+}
+.btn1:hover {
+background-color: darksalmon;
+}
+.btn1 {
+    background-color: aqua;
+    font-family: serif;
+    font-size: 15px;
+}
+.Pic {
+    font-size: 30px;
+    background-color: cornsilk;
+    border-radius: 5px;
+}
+canvas {
+    border-radius: 20px;
+    border: 1px solid cornsilk;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count : infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px blue;}
+}
+.copy_right_footer {
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    line-height: 3;
+    text-shadow: 10px 5px 10px black;
+    font-family: fantasy;
+    background-color: burlywood;
+}
+body {
+    background-position: center;
+    background-size: cover;
+}
+.note {
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 5px;
+    font-family: monospace;
+}
+.gift{
+background-color: crimson;
+font-size: 30px;
+border-radius: 5px;
+font-family: serif;
+}
+ 
+    
